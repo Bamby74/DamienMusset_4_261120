@@ -2014,6 +2014,9 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
 }
+.col-sm-4 {
+    margin-top: 20px;
+}
 
 .col-lg-1,
 .col-lg-10,

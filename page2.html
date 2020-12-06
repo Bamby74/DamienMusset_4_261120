@@ -1,10 +1,11 @@
 <!doctype html>
-<html lang="Default">
+<html lang="fr">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="keywords" content="web design, entreprise web design, web design Lyon,site internet, Responsive design, Contact web design">
+    <meta name="description" content="Prise de contact avec La chouette agence, entreprise de web design basée à Lyon">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+	<meta name="google-site-verification" content="m4pUY6h-hgCx6b_5jmzZ57hfwXgqln7AM_ciO25IJTg" />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg">
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -18,7 +19,7 @@
 	<script src="./js/blocs.min.js"></script>
 	<script src="./js/jqBootstrapValidation.js"></script>
 	<script src="./js/formHandler.js"></script>
-    <title>page2</title>
+    <title>La Chouette Agence-Contact</title>
 
     
 <!-- Analytics -->
@@ -31,11 +32,11 @@
 <div class="page-container">
     
 <!-- bloc-0 -->
-<div class="bloc bgc-white l-bloc " id="bloc-0">
+<header class="bloc bgc-white l-bloc " id="bloc-0">
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="atlanta web design logo" height="40" /></a>
+				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="logo La chouette agence" height="40" /></a>
 				<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
@@ -45,16 +46,11 @@
 					<li>
 						<a href="index.html">Accueil</a>
 					</li>
-					<li>
-					</li>
-					<li>
-						<a href="page2.html">page2 &gt;</a>
-					</li>
 				</ul>
 			</div>
 		</nav>
 	</div>
-</div>
+</header>
 <!-- bloc-0 END -->
 
 <!-- bloc-6 -->
@@ -62,10 +58,10 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center hero-bloc-text tc-white">
+				<h1 class="text-center hero-bloc-text">
 					Parlons web design !
 				</h1>
-				<p class="text-center mg-lg tc-white tight-width-whitespace">
+				<p class="text-center mg-lg tight-width-whitespace">
 					Nous sommes ravis que vous souhaitiez collaborer avec notre agence.<br>
 					Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 				</p>
@@ -82,30 +78,31 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
-							Nom
-						</label>
-						<input id="name" class="form-control" required />
+						<label for="name">
+							Nom :
+						</label><br>
+						<input type="text" id="name" placeholder="Louis" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
-							Adresse email
-						</label>
-						<input id="email" class="form-control" type="email" required />
+						<label for="email">
+							Adresse email : 
+						</label><br>
+						<input type="text" id="email" placeholder="louis.dupont@gmail.com" class="form-control" type="email" required />
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
-						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						</label><br>
+						<input class="form-control" type="text" required id="input_504" />
 					</div>
 					<div class="form-group">
 						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							Brief de votre projet :<br>
+						</label><br>
+						<textarea id="message" class="form-control" placeholder="Ajoutez autant de détails que nécessaire" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
-						Envoyer
+					Envoyer mes infos !
 					</button>
 				</form>
 			</div>
@@ -130,7 +127,7 @@
 		<div class="row">
 			<div class="col-sm-12">
 				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
+					La chouette agence - Agence de web design basée à Lyon.<br>
 				</p>
 				<div class="row row-no-gutters social">
 					<div class="col-sm-3">
