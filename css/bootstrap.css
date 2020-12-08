@@ -1408,13 +1408,13 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+    color: rgba(46,40,23);
     text-decoration: none
 }
 
 a:focus,
 a:hover {
-    color: #23527c;
+    font-size: 30px;
     text-decoration: underline
 }
 
@@ -1437,7 +1437,7 @@ img {
 .img-responsive,
 .thumbnail a>img,
 .thumbnail>img {
-    max-width: 100%;
+    width: 100%;
     height: auto
 }
 

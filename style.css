@@ -163,15 +163,21 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
-.d-bloc a .icon-md {
+.d-bloc a .fa {
     color: rgb(46,40,23);
+    font-size: 30px;
+    transform : scale(1);
+    transition: all 200ms;
+    }
+    .d-bloc a:hover .fa{
+        transform: scale(1.5);
+    }
 }
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -339,6 +345,7 @@ em {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    width: 210px ;
 }
 
 .navbar-brand img[src$=svg] {
@@ -359,10 +366,6 @@ em {
 .navbar-nav:hover {
     background: rgba(46,40,23,0.4);
     border-radius: 5px;
-}
-
-.navbar-nav:hover > li {
-    color: #FFFFFF;
 }
 
 .nav > li {
@@ -404,7 +407,9 @@ em {
     position: relative;
     z-index: 2;
 }
-
+footer .links {
+    margin-top: 10px;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -517,11 +522,6 @@ button {
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
-
-.icon-md {
-    font-size: 30px!important;
-}
-
 .icon-lg {
     font-size: 60px!important;
 }
@@ -753,6 +753,7 @@ p {
 
 .social {
     max-width: 400px;
+    height: 60px;
     margin: auto auto auto auto;
     display: flex;
     justify-content: space-evenly;
@@ -783,7 +784,7 @@ h1 {
 }
 
 h4 {
-    color: #333333!important;
+    font-size: 20px;
 }
 
 .icons {
@@ -1107,9 +1108,7 @@ h4 {
         justify-content: space-evenly;
         margin-top: 10px;
     }
-    .d-bloc a .icon-md {
-        color: rgb(46,40,23);
-    }
+    
     footer > .white {
         color: rgb(46,40,23);
     }
