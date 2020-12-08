@@ -169,7 +169,7 @@ a:hover {
     transform : scale(1);
     transition: all 200ms;
     }
-    .d-bloc a:hover .fa{
+    .d-bloc a:hover .fa{ 
         transform: scale(1.5);
     }
 }
@@ -885,7 +885,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.jpg");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
