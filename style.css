@@ -407,6 +407,10 @@ em {
     position: relative;
     z-index: 2;
 }
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
 footer .links {
     margin-top: 10px;
 }
@@ -1089,6 +1093,12 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    #bloc-7 .row{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 }
 
 @media (max-width: 400px) {
@@ -1117,6 +1127,12 @@ h4 {
     }
     .col-sm-12 > h2 {
         font-weight: bold;
+    }
+    #bloc-7 .row{ 
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
 }
 
