@@ -891,6 +891,9 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+.screen-reader-text {
+    visibility: collapse;
+}
 
 @media (max-width: 1024px) {
     .bloc {
