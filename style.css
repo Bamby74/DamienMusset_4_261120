@@ -414,6 +414,17 @@ ul {
 footer .links {
     margin-top: 10px;
 }
+.mapouter{
+    position:relative;
+    text-align:center;
+    width: 100%;
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:100%;
+    width:100%;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -552,7 +563,7 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-.form-control {
+#form-control {
     border-color: rgba(5, 0, 0, 0.644);
     box-shadow: none;
     margin-top: 5px;;
